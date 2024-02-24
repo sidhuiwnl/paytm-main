@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const { Schema } = require('zod');
 
 
-mongoose.connect('mongodb+srv://sidharthinfernal:123@cluster0.mod7lyl.mongodb.net/paytm')
+mongoose.connect('Your mongoDb url')
 
 const userSchema = mongoose.Schema({
     username : {
